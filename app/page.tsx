@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import MyComponent from "@/components/MyComponent/MyComponent";
 import Clock from "@/components/clock/clock";
 import Counter from "@/components/counter/counter";
+import Conditional from "@/components/conditional/conditional";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <MyComponent />
       <Clock />
       <Counter />
+      <Conditional />
     </div>
   );
 }
